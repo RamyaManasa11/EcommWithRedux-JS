@@ -1,0 +1,120 @@
+.App{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Product Details Page */
+.product-container {
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 2rem;
+}
+
+.product-item {
+  border: 2px solid rgb(111, 106, 106);
+  border-radius: 5%;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  padding: 10px;
+}
+
+.buttons {
+  margin-top: 2rem;
+}
+
+
+/* Header Component */
+header {
+  border: 1px solid black;
+  height: 12vh;
+  background-color: #35373f;
+  line-height: 12vh;
+}
+
+.flexSB {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  margin-top: -1rem;
+  height: 6vh;
+  width: 70px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.headerMenuItem {
+  margin-left: 2rem;
+  color: white;
+  font-size: large;
+}
+
+/* Footer Component */
+.footer {
+  background-color: #35373f;
+  padding: 50px;
+  color: white;
+}
+
+.menuItems {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+.menuItem {
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.infoText {
+  font-size: 12px;
+  opacity: 0.5;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(164, 159, 159);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.navItem {
+  text-decoration: none;
+}
+
+.cartItems{
+  width: 50%;
+  margin-left: 25%;
+  background-color: rgb(205, 207, 210);
+}
+.subCart{
+  display: flex;
+  flex-direction: row;
+  margin: 2rem;
+}
+.cartItemDetails{
+  margin-left: 2rem;
+  text-align: left;
+}
+
+.handleCart{
+  border: 1px solid black;
+  width: fit-content;
+}
